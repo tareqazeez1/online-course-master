@@ -10,7 +10,7 @@ const Cart = (props) => {
             <div className="cart-box">
                 <div>
                     <h3>Course Enrolled: {cartItems.length}</h3>
-                    <h2>Total Price: $ {total.toFixed(2)}</h2>
+                    <h2>Course Price: $ {total.toFixed(2)}</h2>
                 </div>
             </div>
     );
